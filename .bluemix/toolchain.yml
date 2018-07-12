@@ -57,5 +57,5 @@ form:
   pipeline:
     parameters:
       prod-app-name: '{{services.sample-repo.parameters.repo_name}}'
-    schema:
-      $ref: deploy.json
+      schema:
+        $ref: deploy.json
